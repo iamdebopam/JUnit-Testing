@@ -1,7 +1,7 @@
 package JUnit;
 
 public class StringHelper {
-
+	//Duplicate of src.java.StringHelper
 	public String truncateAInFirst2Positions(String str) {
 		if (str.length() <= 2)
 			return str.replaceAll("A", "");
