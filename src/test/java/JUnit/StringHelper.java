@@ -3,7 +3,7 @@ package JUnit;
 public class StringHelper {
 	//Duplicate
 	//Of Java
-	//extra comment made LOCAL
+	//extra comment made Github
 	public String truncateAInFirst2Positions(String str) {
 		if (str.length() <= 2)
 			return str.replaceAll("A", "");
