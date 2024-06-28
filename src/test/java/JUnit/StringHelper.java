@@ -5,6 +5,7 @@ public class StringHelper {
 	//Of Java
 	//extra comment made in Local Directory
 	//extra comment made Github
+	//but not the least
 	public String truncateAInFirst2Positions(String str) {
 		if (str.length() <= 2)
 			return str.replaceAll("A", "");
