@@ -8,8 +8,6 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.junit.Assert.*;
-
 @RunWith(Parameterized.class)
 public class StringHelperParameterizedTest {
 
