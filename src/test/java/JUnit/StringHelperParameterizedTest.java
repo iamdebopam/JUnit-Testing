@@ -13,8 +13,8 @@ import static org.junit.Assert.*;
 @RunWith(Parameterized.class)
 public class StringHelperParameterizedTest {
 
-    private String input;
-    private String expectedOutput;
+    private final String input;
+    private final String expectedOutput;
 
     public StringHelperParameterizedTest(String input, String expectedOutput) {
         this.input = input;
